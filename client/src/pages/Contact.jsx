@@ -5,7 +5,7 @@ export default function Contact() {
 
 
     return(
-        <div className="text-3xl font-bold underline">
+        <div className="text-3xl font-bold underline font-serif">
             Contact Me
         </div>
     )

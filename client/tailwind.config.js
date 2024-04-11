@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      'pink': '#ec4899',
+      'green': '#10b981',
+      'light-green': '#f7fee7'
+    },
+    container: {
+      padding: "2rem",
+      center: true,
+    },
+    // fontFamily: {
+    //   'font-mono':
+    // },
+    extend: {
+      
+    },
   },
   plugins: [],
 }
